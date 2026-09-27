@@ -17,7 +17,7 @@ public class BreweryController {
 
     private final BreweryService breweryService;
 
-    // localhost:8081/api/v1/brewery-client
+    // localhost:8080/api/v1/brewery-client
     @GetMapping
     public ResponseEntity<List<BreweryData>> getBreweries() {
         return ResponseEntity.ok(
